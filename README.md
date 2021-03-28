@@ -10,11 +10,11 @@ https://mybinder.org/v2/gh/dmbala/binder-PyDL/master
 
 
 ## Notes
-The `environment.yml` file should list all Python libraries on which your notebooks
+The `environment.yaml` file should list all Python libraries on which your notebooks
 depend, specified as though they were created using the following `conda` commands:
 
 ```
-conda activate PyBigData-environment
-conda env export --from-history -f environment.yml
+conda activate py-deeplearning
+conda env export --from-history -f environment.yaml
 ```
 
