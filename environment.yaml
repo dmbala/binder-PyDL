@@ -32,3 +32,4 @@ dependencies:
   - opencv
   - pydot
   - seaborn
+  - nano
